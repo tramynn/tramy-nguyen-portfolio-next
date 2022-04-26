@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: #434343;
 }
 
 .main {
@@ -48,6 +49,7 @@
 .title,
 .description {
   text-align: center;
+  color: #CF9AD8;
 }
 
 .description {
