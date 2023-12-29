@@ -16,9 +16,8 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Tramy Nguyen&apos;s Portfol.io
         </h1>
-
         <p className={styles.description}>
-          Coming Soon<br />Summer 2022
+          Coming Soon<br />
         </p>
       </main>
     </div>
