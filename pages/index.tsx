@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Coming Soon<br />Summer 2022
+          Coming Soon<br />
         </p>
       </main>
     </div>
