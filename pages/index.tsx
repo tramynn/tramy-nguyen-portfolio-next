@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import logoImage from '../shared/assets/images/logo.png';
 
 const Home: NextPage = () => {
   return (
@@ -11,14 +12,16 @@ const Home: NextPage = () => {
         <meta name="description" content="Tramy Nguyen Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
+        <Image
+            src={logoImage}
+            width={174}
+            height={112.54}
+            alt="Tra My Nguyen's Portfolio Logo"
+        />
         <h1 className={styles.title}>
-          Tramy Nguyen&apos;s Portfol.io
+          &nbsp; Tra My Ngoc Nguyen
         </h1>
-        <p className={styles.description}>
-          Coming Soon<br />
-        </p>
       </main>
     </div>
   )
