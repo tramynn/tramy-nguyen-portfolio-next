@@ -1,8 +1,8 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import logoImage from '../shared/assets/images/logo.png';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import logoImage from "../shared/assets/images/logo.png";
 
 const Home: NextPage = () => (
   <div className={styles.container}>
@@ -18,9 +18,7 @@ const Home: NextPage = () => (
         height={112.54}
         alt="Tra My Nguyen's Portfolio Logo"
       />
-      <h1 className={styles.title}>
-            &nbsp; Tra My Ngoc Nguyen
-      </h1>
+      <h1 className={styles.title}>&nbsp; Tra My Ngoc Nguyen</h1>
     </main>
   </div>
 );
