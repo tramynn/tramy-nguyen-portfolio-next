@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "lint:write": "next lint --cache --fix"
+    "lint:write": "next lint --cache --fix",
+    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production'){process.exit(1)} \" || husky install"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.20.0",
