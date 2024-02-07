@@ -21,7 +21,6 @@
 	font-size: 2rem;
 	text-align: center;
 	color: #9873da;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 .description {
@@ -29,5 +28,4 @@
 	text-align: center;
 	color: #fff;
 	opacity: 0.8;
-	font-family: Arial, Helvetica, sans-serif;
 }

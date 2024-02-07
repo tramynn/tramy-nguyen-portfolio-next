@@ -19,6 +19,7 @@ const Home: NextPage = () => (
 				alt="Tra My Nguyen's Portfolio Logo"
 			/>
 			<h1 className={styles.title}>&nbsp; Tra My Ngoc Nguyen</h1>
+			<p className={styles.description}>Under Construction. Come back!</p>
 		</main>
 	</div>
 );
