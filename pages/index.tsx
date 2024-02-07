@@ -18,8 +18,10 @@ const Home: NextPage = () => (
 				height={112.54}
 				alt="Tra My Nguyen's Portfolio Logo"
 			/>
-			<h1 className={styles.title}>&nbsp; Tra My Ngoc Nguyen</h1>
-			<p className={styles.description}>Under Construction. Come back!</p>
+			<h1 className={styles.title} style={{ fontWeight: 700 }}>
+				&nbsp; Tra My Ngoc Nguyen
+			</h1>
+			<p className={styles.description}>🔧 Under Construction</p>
 		</main>
 	</div>
 );
