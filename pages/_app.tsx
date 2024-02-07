@@ -1,18 +1,12 @@
 import '../shared/styles/reset.css';
 import type { AppProps } from 'next/app';
-import { Raleway } from 'next/font/google';
-
-const raleway = Raleway({
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	style: ['italic', 'normal'],
-	subsets: ['latin'],
-	display: 'swap'
-});
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from '../shared/styles/theme';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-	<main className={raleway.className}>
+	<ChakraProvider theme={theme}>
 		<Component {...pageProps} />
-	</main>
+	</ChakraProvider>
 );
 
 export default MyApp;
