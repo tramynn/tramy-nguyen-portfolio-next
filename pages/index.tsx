@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { Heading } from '@chakra-ui/react';
 import styles from '../shared/styles/Home.module.css';
 import logoImage from '../shared/assets/images/logo.png';
-import { magicRetro } from '../shared/fonts/fonts';
 
 const Home: NextPage = () => (
 	<div className={styles.container}>
@@ -19,9 +19,8 @@ const Home: NextPage = () => (
 				height={112.54}
 				alt="Tra My Nguyen's Portfolio Logo"
 			/>
-			<h1
+			<Heading
 				style={{
-					fontFamily: magicRetro.style.fontFamily,
 					color: '#9873da',
 					margin: '2rem',
 					letterSpacing: '.1rem',
@@ -32,7 +31,7 @@ const Home: NextPage = () => (
 				}}
 			>
 				Tra My Ngoc Nguyen
-			</h1>
+			</Heading>
 			<p
 				style={{
 					color: '#fff',
