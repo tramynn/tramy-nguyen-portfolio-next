@@ -1,4 +1,4 @@
-import '../styles/reset.css';
+import '../shared/styles/reset.css';
 import type { AppProps } from 'next/app';
 import { Raleway } from 'next/font/google';
 

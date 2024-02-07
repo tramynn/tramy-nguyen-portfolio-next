@@ -14,18 +14,3 @@
 	justify-content: center;
 	align-items: center;
 }
-
-.title {
-	margin: 1.5rem;
-	line-height: 1.15;
-	font-size: 2rem;
-	text-align: center;
-	color: #9873da;
-}
-
-.description {
-	font-size: 1rem;
-	text-align: center;
-	color: #fff;
-	opacity: 0.8;
-}
