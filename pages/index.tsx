@@ -38,7 +38,8 @@ const Home: NextPage = () => (
 					margin: 0,
 					opacity: 0.9,
 					width: '100%',
-					textAlign: 'center'
+					textAlign: 'center',
+					fontWeight: 500
 				}}
 			>
 				🔧 Under Construction
