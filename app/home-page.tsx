@@ -8,7 +8,7 @@ import { Heading } from '@chakra-ui/react';
 import styles from '../shared/styles/Home.module.css';
 import logoImage from '../shared/assets/images/logo.png';
 
-const LandingPage = () => (
+const HomePage = () => (
 	<div className={styles.container}>
 		<main className={styles.main}>
 			<Image
@@ -37,7 +37,7 @@ const LandingPage = () => (
 					opacity: 0.9,
 					width: '100%',
 					textAlign: 'center',
-					fontWeight: 500
+					fontWeight: 600
 				}}
 			>
 				🔧 Under Construction
@@ -46,4 +46,4 @@ const LandingPage = () => (
 	</div>
 );
 
-export default LandingPage;
+export default HomePage;

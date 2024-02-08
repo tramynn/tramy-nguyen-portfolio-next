@@ -1,6 +1,6 @@
 // Client Components
-import LandingPage from './landing-page';
+import HomePage from './home-page';
 
-const Page = () => <LandingPage />;
+const Page = () => <HomePage />;
 
 export default Page;
