@@ -1,17 +1,15 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
+// Libraries
 import Image from 'next/image';
+
+// ChakraUI
 import { Heading } from '@chakra-ui/react';
+
+// Styles
 import styles from '../shared/styles/Home.module.css';
 import logoImage from '../shared/assets/images/logo.png';
 
-const Home: NextPage = () => (
+const HomePage = () => (
 	<div className={styles.container}>
-		<Head>
-			<title>Tra My Ngoc Nguyen</title>
-			<meta name='description' content="Tra My Ngoc Nguyen's Portfolio" />
-			<link rel='icon' href='/favicon.ico' />
-		</Head>
 		<main className={styles.main}>
 			<Image
 				src={logoImage}
@@ -39,7 +37,7 @@ const Home: NextPage = () => (
 					opacity: 0.9,
 					width: '100%',
 					textAlign: 'center',
-					fontWeight: 500
+					fontWeight: 600
 				}}
 			>
 				🔧 Under Construction
@@ -48,4 +46,4 @@ const Home: NextPage = () => (
 	</div>
 );
 
-export default Home;
+export default HomePage;
