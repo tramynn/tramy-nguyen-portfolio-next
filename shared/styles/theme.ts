@@ -11,9 +11,10 @@ const brand = {
 	primary: '#9873DA',
 	secondary: '#7382DA',
 	tertiary: '#CC73DA',
-	gradientFirst: 'linear-gradient(76.31deg, #9873DA 6.07%, #7382DA 93.33%)',
-	gradientSecondary:
-		'linear-gradient(76.31deg, #9873DA 6.07%, #CC73DA 93.33%)'
+	gradients: {
+		primary: 'linear-gradient(76.31deg, #9873DA 6.07%, #7382DA 93.33%)',
+		secondary: 'linear-gradient(76.31deg, #9873DA 6.07%, #CC73DA 93.33%)'
+	}
 };
 
 // eslint-disable-next-line no-unused-vars
@@ -125,7 +126,6 @@ const ButtonStyle: ComponentStyleConfig = {
 // 		},
 // 	}
 // }
-
 const components = {
 	Button: ButtonStyle
 };
@@ -134,7 +134,8 @@ const customTheme = extendTheme({
 	config,
 	fonts: {
 		body: `${fonts.raleway.style.fontFamily}, Arial, san-serif`,
-		heading: `${fonts.magicRetro.style.fontFamily}, Arial, san-serif`
+		heading: `${fonts.magicRetro.style.fontFamily}, Arial, san-serif`,
+		subheading: `${fonts.alstoria.style.fontFamily}, Arial, san-serif`
 	},
 	colors,
 	styles,
