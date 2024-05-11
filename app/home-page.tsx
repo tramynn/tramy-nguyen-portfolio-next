@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 // ChakraUI
-import { Heading } from '@chakra-ui/react';
+import { Heading, Text } from '@chakra-ui/react';
 
 // Styles
 import styles from '../shared/styles/Home.module.css';
@@ -30,18 +30,7 @@ const HomePage = () => (
 			>
 				Tra My Ngoc Nguyen
 			</Heading>
-			<p
-				style={{
-					color: '#fff',
-					margin: 0,
-					opacity: 0.9,
-					width: '100%',
-					textAlign: 'center',
-					fontWeight: 600
-				}}
-			>
-				🔧 Under Construction
-			</p>
+			<Text fontSize='md'>🔧 Under Construction</Text>
 		</main>
 	</div>
 );
